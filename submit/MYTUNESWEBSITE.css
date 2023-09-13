@@ -1,0 +1,444 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+	
+
+}
+
+html,body{
+	font-family: sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	background-color: #f9f6ff;
+}
+
+header{
+	background-color: #270082;
+	color:white;
+	border: 2px solid black;
+	position: sticky;
+	top: 0px;
+	z-index: 10000;
+
+
+}
+
+
+.full{
+	
+	height:40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-left:50px ;
+
+	margin-right:50px ;
+/*	position: fixed;*/
+	
+	
+}
+
+.myTunes{
+	font-size: 20px;
+	
+}
+
+.all{
+	
+	display: flex;
+	gap: 20px;
+	font-size: 13px;
+
+
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+@media(max-width:590px){
+	.all{
+	
+	display: flex;
+	gap: 5px;
+	font-size: -30px;
+/*	display: none;*/
+	
+
+
+}
+
+}
+
+@media(max-width:440px){
+	.all{
+	
+/*	display: flex;*/
+	gap: 5px;
+	font-size: -30px;
+	display: none;
+}
+
+.h3{
+	font-size: 30px;
+	text-align: center;
+
+}
+
+}
+
+
+
+/*HERO SECTION*/
+
+
+#hero{
+		background-image: url("1tunes.jpg");
+	background-size: cover;
+	height:490px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.hero-section{
+	color:black;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	color:white;
+	
+}
+
+.hero-section h1{
+	font-size: 60px;
+	font-weight: 700;
+
+}
+
+.hero-section h4{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 600;
+
+}
+
+.hero-section p{
+	margin-top: 17px;
+	font-size: 12px;
+	font-weight: 50;
+
+}
+
+
+
+
+/*MUSIC SECTION*/
+
+
+#music{
+	height:500px;
+	background-color: #270082;
+	display: flex;
+	justify-content: center;
+	
+	text-align: center;
+	color:white;
+
+
+}
+
+
+.music-section{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 35px;
+
+}
+
+.music-section h1{
+	font-size: 35px;
+	font-weight: 700;
+
+}
+
+.music-section p{
+	margin-top: 14px;
+	font-size: 13px;
+	font-weight: 50;
+
+}
+
+.trial{
+	margin-top: 14px;
+	background-color: #dc0000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color:white;
+	font-weight: 700;
+	border: none;
+	
+}
+
+.trial:hover{
+	font-size:16px;
+	border:2px solid black;
+}
+
+.trial:active{
+	background-color: blue;
+	color:black;
+	 border:2px solid yellow;
+}
+
+
+
+
+.aa{
+	border:2px solid black;
+	padding: 7px 10px;
+	color:white;
+	background-color: #1b0058;
+
+}
+
+.bg{
+	background-color: yellow;
+}
+
+/*VIDEO SECTION*/
+
+#video{
+	margin-top: 70rem;
+	height: 100vh;
+	background-image: url("3tunes.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*.pimg{
+	margin-top: 70rem;
+	height: 100vh;
+	background-image: url("3tunes.jpg");
+	background-size: cover;
+	}*/
+
+
+
+
+
+@media(max-width:738px){
+	#video{
+		margin-top: 60rem;
+		
+	}
+}
+
+@media(max-width:616px){
+	#video{
+		margin-top: 55rem;
+		
+	}
+}
+
+@media(max-width:500px){
+	#video{
+		margin-top: 50rem;
+		
+	}
+}
+
+@media(max-width:400px){
+	#video{
+		margin-top: 45rem;
+		
+	}
+}
+
+@media(max-width:300px){
+	#video{
+		margin-top: 60rem;
+		
+	}
+}
+
+@media(max-width:200px){
+	#video{
+		margin-top: 55rem;
+		
+	}
+}
+
+@media(max-width:100px){
+	#video{
+		margin-top: 30rem;
+		
+	}
+}
+
+
+
+
+
+@media(min-width:848px){
+	#video{
+		margin-top: 75rem;
+		
+	}
+}
+
+@media(min-width:900px){
+	#video{
+		margin-top: 80rem;
+		
+	}
+}
+
+@media(min-width:1000px){
+	#video{
+		margin-top: 88rem;
+		
+	}
+}
+
+
+
+
+
+
+
+@media(min-width:1207px){
+	.aa{
+		position: fixed;
+
+		
+	}
+}
+
+
+
+
+
+
+.h4{
+	color: white;
+	font-weight: 900;
+	font-size: 10px;
+
+}
+.h5{
+	font-size: 14px;
+}
+
+.h6{
+	font-weight: 500;
+	font-size: 12px;
+}
+
+/*GIFT SECTION*/
+
+#gift{
+	margin-top: ;
+}
+
+.gift-text p{
+	margin-top: 5px;
+	font-size: 13px;
+}
+
+
+
+.t{
+	
+	background-color: #1b0058;
+	padding: 5px 10px;
+	color:white;
+}
+
+/*HEADE section*/
+
+.e{
+	line-height: 5px;
+	
+
+}
+
+.m{
+	text-decoration:2px solid underline;
+
+}
+
+#header{
+	background-color: #281154;
+
+}
+
+header{
+	margin-top: 40px;
+}
+
+/*.dark{
+	background-color: grey;
+}*/
+
+/*.rrr{
+ font-size: 2rem;
+ l
+}*/
+
+@media(max-width:768px){
+	.rrr{
+		font-size: 2rem;
+
+	}
+	.e{
+		line-height: 1.3rem;
+	}
+
+	.m{
+		font-size: 4rem;
+		color: green;
+		text-decoration:2px solid yellow underline;
+
+	}
+}
+
+/*video*/
+@media(min-width:926px){
+	#video{
+		height: 50rem;
+		
+	}
+}
+
+@media(min-width:926px){
+	.h4{
+       font-size: 1rem;
+		
+	}
+}
+
+@media(min-width:1122px){
+	.h4{
+       font-size: 1.5rem;
+		
+	}
+}
+
+
+
+
+
+
+
